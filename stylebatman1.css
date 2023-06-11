@@ -1,0 +1,130 @@
+/* || General setup */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: black;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h2, h3 {
+  font-family: 'Rajdhani', cursive;
+  color: #FFFFFF;
+}
+
+p, input, li {
+  font-family: 'Space Grotesk', sans-serif;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: left-side;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+nav {
+text-align: right;
+}	
+p, li{
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+div{
+	display: block;
+	background-image: url("Illustrations/Bathome1.png");
+	height: 100%; 
+	background-size: cover;
+	padding: 1%;
+}
+main, header, nav, main, aside{
+  background-color: transparent; 
+  padding: 1%;
+}
+
+article, footer, section {
+  background-color: transparent; 
+  padding: 1%;
+}
+
+header img {
+  display: block;
+  height: 60px;
+  padding-top: 20.15px;
+}
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav p, nav span {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article,section {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  padding: 1%;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+.images {
+	  margin-left: 10px;
+}
+.noms {
+	 margin-top: 10px;
+	 text-align:center;
+	 vertical-align: top;
+}
+footer {
+  margin-top: 10px;
+}
+
