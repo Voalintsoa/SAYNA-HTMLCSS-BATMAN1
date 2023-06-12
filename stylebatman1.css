@@ -137,6 +137,9 @@ aside a {
 aside img {
   max-width: 100%;
 }
+td {
+	text-align: center;
+}
 .images {
 	  margin-left: 10px;
 }
