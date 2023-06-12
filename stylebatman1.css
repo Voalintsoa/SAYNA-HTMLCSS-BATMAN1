@@ -131,7 +131,9 @@ aside a {
   width: 150%;
   text-decoration: none;
 }
-
+.br {
+	margin-bottom: 17em;
+}
 aside img {
   max-width: 100%;
 }
